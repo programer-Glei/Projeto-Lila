@@ -41,4 +41,8 @@ body {
 .header .header-2 .navbar {
   display: none;
 }
+
+main {
+  padding: 0 9.8%;
+}
 /*# sourceMappingURL=estilo.css.map */
