@@ -40,9 +40,12 @@ body{
 
 main{
     padding: 0 9.8%;
+    height: 100vh;
 }
 
 .home{
+    height: 100%;
+    background-image: url(../img/diagnostic-lab-hero-bg.jpg);
     .row{
         display: flex;
         flex-wrap: wrap;
