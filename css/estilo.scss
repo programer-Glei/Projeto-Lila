@@ -52,20 +52,23 @@ main{
     .row{
         display: flex;
         flex-wrap: wrap;
-        gap: 3rem;
-        padding: 16.3rem 0 0 5.1rem;
+        padding: 16rem 0 0 5.1rem;
 
         .box{
-            flex: 1 1 40rem;
-
-            img{
-                margin-bottom: 2rem;
-                height: 40rem;
-            }
+            flex: 1;
 
             h6{
                 color: #F6821F;
                 font-size: 2rem;
+            }
+
+            h1{
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                color: #036738;
+                font-size: 5rem;
+                line-height: 1;
+                padding-right: 5rem;
             }
 
             p{
@@ -77,6 +80,15 @@ main{
             .btn{
                 display: inline-block;
                 width: auto;
+            }
+        }
+
+        .box-1{
+            width: 46rem;
+
+            img{
+                width: 42rem;
+                height: 42rem;
             }
         }
     }

@@ -61,24 +61,27 @@ main {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 3rem;
-  padding: 16.3rem 0 0 5.1rem;
+  padding: 16rem 0 0 5.1rem;
 }
 
 .home .row .box {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-}
-
-.home .row .box img {
-  margin-bottom: 2rem;
-  height: 40rem;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .home .row .box h6 {
   color: #F6821F;
   font-size: 2rem;
+}
+
+.home .row .box h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #036738;
+  font-size: 5rem;
+  line-height: 1;
+  padding-right: 5rem;
 }
 
 .home .row .box p {
@@ -90,5 +93,14 @@ main {
 .home .row .box .btn {
   display: inline-block;
   width: auto;
+}
+
+.home .row .box-1 {
+  width: 46rem;
+}
+
+.home .row .box-1 img {
+  width: 42rem;
+  height: 42rem;
 }
 /*# sourceMappingURL=estilo.css.map */
