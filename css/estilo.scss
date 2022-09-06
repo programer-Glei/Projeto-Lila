@@ -45,25 +45,27 @@ main{
 
 .home{
     height: 100%;
+    background-color: #F7FDFB;
     background-image: url(../img/diagnostic-lab-hero-bg.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
     .row{
         display: flex;
         flex-wrap: wrap;
         gap: 3rem;
-        align-items: center;
+        padding: 16.3rem 0 0 5.1rem;
 
         .box{
             flex: 1 1 40rem;
-            text-align: center;
 
             img{
                 margin-bottom: 2rem;
                 height: 40rem;
             }
 
-            h3{
-                padding: 1rem 0;
-                font-size: 2.5rem;
+            h6{
+                color: #F6821F;
+                font-size: 2rem;
             }
 
             p{
