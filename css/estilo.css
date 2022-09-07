@@ -118,4 +118,10 @@ main {
   height: auto;
   border-radius: 16px 16px 16px 0px;
 }
+
+.infra-ser {
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #F7FDFB), color-stop(50%, #FFFFFF));
+  background-image: linear-gradient(180deg, #F7FDFB 50%, #FFFFFF 50%);
+}
 /*# sourceMappingURL=estilo.css.map */
