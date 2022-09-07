@@ -113,9 +113,24 @@ main{
     background-image: linear-gradient(180deg, #F7FDFB 50%, #FFFFFF 50%);
 
     .row{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto auto;
         padding: 14rem 0 12rem 5.1rem;
         min-height: 60rem;
+
+        .box{
+            background-image: url(../img/clinica-e-consultorios-online-doctor-gestao-proposta-min-min.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .serv{
+                background-color: #008037;
+                transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+                margin: 42% 0% 0% 50%;
+                --e-column-margin-right: 0%;
+                --e-column-margin-left: 50%;
+                padding: 34px 40px 28px 32px;
+            }
+        }
     }
 }
