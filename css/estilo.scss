@@ -52,7 +52,7 @@ main{
     .row{
         display: flex;
         flex-wrap: wrap;
-        padding: 16rem 0 0 5.1rem;
+        padding: 14rem 0 0 5.1rem;
 
         .box{
             flex: 1;
@@ -60,6 +60,8 @@ main{
             h6{
                 color: #F6821F;
                 font-size: 2rem;
+                margin-top: 6rem;
+                margin-bottom: 3rem;
             }
 
             h1{
@@ -72,9 +74,13 @@ main{
             }
 
             p{
-                line-height: 2;
-                font-size: 1.5rem;
-                padding: 1rem 0;
+                font-family: "Roboto", sans-serif;
+                line-height: 1.5;
+                font-size: 1.7rem;
+                padding-top: 2rem;
+                padding-bottom: 4rem;
+                color: #7a7a7a;
+                font-weight: 400;
             }
 
             .btn{
@@ -84,11 +90,12 @@ main{
         }
 
         .box-1{
-            width: 46rem;
+            width: 40%;
 
             img{
-                width: 42rem;
+                width: 91%;
                 height: 42rem;
+                border-radius: 16px 16px 16px 0px;
             }
         }
     }
