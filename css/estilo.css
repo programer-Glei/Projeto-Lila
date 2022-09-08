@@ -130,8 +130,15 @@ main {
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
-  padding: 14rem 0 12rem 5.1rem;
+  padding: 14rem 5rem 12rem 5.1rem;
   min-height: 60rem;
+}
+
+.infra-ser .row p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.85714285714286;
 }
 
 .infra-ser .row .box {
@@ -157,6 +164,29 @@ main {
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
+}
+
+.infra-ser .row .box-1 .infra {
+  background-color: #FFFFFF;
+  -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  padding: 32px 40px 32px 32px;
+}
+
+.infra-ser .row .box-1 .infra h3 {
+  width: 20.8rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 1.4;
+  color: #008037;
+}
+
+.infra-ser .row .box-1 .loca {
+  background-color: #008037;
+  padding: 32px 40px 32px 32px;
 }
 
 .infra-ser .row .box-1 .consul {

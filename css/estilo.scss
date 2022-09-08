@@ -115,8 +115,15 @@ main{
     .row{
         display: grid;
         grid-template-columns: auto auto;
-        padding: 14rem 0 12rem 5.1rem;
+        padding: 14rem 5rem 12rem 5.1rem;
         min-height: 60rem;
+
+        p{
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 1.85714285714286;
+        }
 
         .box{
             background-image: url(../img/clinica-e-consultorios-online-doctor-gestao-proposta-min-min.png);
@@ -138,11 +145,23 @@ main{
             grid-template-columns: auto auto;
 
             .infra{
+                background-color: #FFFFFF;
+                transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+                padding: 32px 40px 32px 32px;
 
+                h3{
+                    width: 20.8rem;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    font-size: 2.6rem;
+                    line-height: 1.4;
+                    color: #008037;
+                }
             }
 
             .loca{
-
+                background-color: #008037;
+                padding: 32px 40px 32px 32px;
             }
 
             .consul{
