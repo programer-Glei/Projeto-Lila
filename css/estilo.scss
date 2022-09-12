@@ -114,16 +114,19 @@ main{
 
     .row{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 0.7fr;
         padding: 14rem 5rem 12rem 5.1rem;
         min-height: 60rem;
 
         h3{
-            width: 20.8rem;
             font-family: "Roboto", sans-serif;
             font-weight: 500;
-            font-size: 2.6rem;
+            font-size: 2.5rem;
             line-height: 1.4;
+        }
+
+        .cont{
+            width: 20.8rem;
         }
 
         p{
@@ -157,9 +160,6 @@ main{
                 transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
                 padding: 32px 40px 32px 32px;
 
-                .cont{
-                    width: 28rem;
-                }
                 h3{
                     color: #008037;
                 }
