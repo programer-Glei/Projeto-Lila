@@ -139,6 +139,7 @@ main {
   font-weight: 500;
   font-size: 2.5rem;
   line-height: 1.4;
+  margin-bottom: 0.8rem;
 }
 
 .infra-ser .row .cont {
@@ -188,6 +189,10 @@ main {
 
 .infra-ser .row .box-1 .infra h3 {
   color: #008037;
+}
+
+.infra-ser .row .box-1 .infra p {
+  color: #7a7a7a;
 }
 
 .infra-ser .row .box-1 .loca {
