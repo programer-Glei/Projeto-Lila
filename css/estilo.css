@@ -151,6 +151,7 @@ main {
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.85714285714286;
+  margin-bottom: 2.8rem;
 }
 
 .infra-ser .row .box {
@@ -198,6 +199,10 @@ main {
 .infra-ser .row .box-1 .loca {
   background-color: #008037;
   padding: 32px 40px 32px 32px;
+}
+
+.infra-ser .row .box-1 .loca p {
+  color: #F7FDFB;
 }
 
 .infra-ser .row .box-1 .consul {
