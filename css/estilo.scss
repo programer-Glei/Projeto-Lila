@@ -161,6 +161,7 @@ main{
                 background-color: #FFFFFF;
                 transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
                 padding: 32px 40px 32px 32px;
+                height: 33.2rem;
 
                 h3{
                     color: #008037;
@@ -174,9 +175,15 @@ main{
             .loca{
                 background-color: #008037;
                 padding: 32px 40px 32px 32px;
+                border-radius: 0px 16px 0px 0px;
+                height: 33.2rem;
 
                 p{
                     color: #F7FDFB;
+                }
+
+                h3{
+                    color: white;
                 }
             }
 

@@ -186,6 +186,7 @@ main {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
   padding: 32px 40px 32px 32px;
+  height: 33.2rem;
 }
 
 .infra-ser .row .box-1 .infra h3 {
@@ -199,10 +200,16 @@ main {
 .infra-ser .row .box-1 .loca {
   background-color: #008037;
   padding: 32px 40px 32px 32px;
+  border-radius: 0px 16px 0px 0px;
+  height: 33.2rem;
 }
 
 .infra-ser .row .box-1 .loca p {
   color: #F7FDFB;
+}
+
+.infra-ser .row .box-1 .loca h3 {
+  color: white;
 }
 
 .infra-ser .row .box-1 .consul {
