@@ -228,6 +228,32 @@ main{
                         -o-transition: all .3s;
                         transition: all .3s;
                     }
+
+                    .barra{
+                        width: 0.1rem;
+                        height: 4.8rem;
+                        margin-inline: 3.2rem;
+                        background-color: rgba(255, 255, 255, 0.16);
+                    }
+
+                    .what{
+                        display: flex;
+                        align-items: center;
+
+                        .img{
+                            background-color: #28BD86;
+                            fill: #FFFFFF;
+                            color: #FFFFFF;
+                            font-size: 16px;
+                            padding: 14px;
+                            border-radius: 50%;
+
+                            img{
+                                width: 2rem;
+                                height: 2rem;
+                            }
+                        }
+                    }
                 }
             }
         }

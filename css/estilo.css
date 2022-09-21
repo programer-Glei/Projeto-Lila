@@ -254,4 +254,34 @@ main {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
+
+.infra-ser .row .box-1 .consul .info .barra {
+  width: 0.1rem;
+  height: 4.8rem;
+  margin-inline: 3.2rem;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+.infra-ser .row .box-1 .consul .info .what {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infra-ser .row .box-1 .consul .info .what .img {
+  background-color: #28BD86;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 14px;
+  border-radius: 50%;
+}
+
+.infra-ser .row .box-1 .consul .info .what .img img {
+  width: 2rem;
+  height: 2rem;
+}
 /*# sourceMappingURL=estilo.css.map */
