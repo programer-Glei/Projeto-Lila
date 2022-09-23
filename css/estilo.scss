@@ -241,17 +241,18 @@ main{
                         align-items: center;
 
                         .img{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 4rem;
+                            height: 4rem;
+                            line-height: 4rem;
                             background-color: #28BD86;
                             fill: #FFFFFF;
                             color: #FFFFFF;
-                            font-size: 16px;
+                            font-size: 14px;
                             padding: 14px;
                             border-radius: 50%;
-
-                            img{
-                                width: 2rem;
-                                height: 2rem;
-                            }
                         }
                     }
                 }
