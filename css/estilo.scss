@@ -246,13 +246,31 @@ main{
                             justify-content: center;
                             width: 4rem;
                             height: 4rem;
-                            line-height: 4rem;
+                            margin-right: 1.6rem;
                             background-color: #28BD86;
                             fill: #FFFFFF;
                             color: #FFFFFF;
                             font-size: 14px;
                             padding: 14px;
                             border-radius: 50%;
+                        }
+
+                        .num{
+
+                            a{
+                                font-family: "Roboto", sans-serif;
+                                font-weight: 400;
+                                font-size: 1.4rem;
+                                color: white;
+                            }
+
+                            p{
+                                font-size: 2.4rem;
+                                font-weight: 600;
+                                line-height: 1em;
+                                letter-spacing: 1px;
+                                margin: 0;
+                            }
                         }
                     }
                 }
