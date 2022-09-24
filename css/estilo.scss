@@ -115,7 +115,7 @@ main{
     .row{
         display: grid;
         grid-template-columns: 1fr 0.7fr;
-        padding: 14rem 5rem 12rem 5.1rem;
+        padding: 5rem 5rem 12rem 5.1rem;
         min-height: 60rem;
 
         h3{
@@ -218,7 +218,8 @@ main{
 
                         display: inline-block;
                         line-height: 1;
-                        font-size: 15px;
+                        font-size: 1.5rem;
+                        font-weight: 500;
                         padding: 12px 24px;
                         border-radius: 3px;
                         color: #fff;
@@ -227,6 +228,11 @@ main{
                         -webkit-transition: all .3s;
                         -o-transition: all .3s;
                         transition: all .3s;
+
+                        &:hover{
+                            background-color: white;
+                            color: #008037;
+                        }
                     }
 
                     .barra{

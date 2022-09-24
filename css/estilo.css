@@ -130,7 +130,7 @@ main {
   display: grid;
   -ms-grid-columns: 1fr 0.7fr;
       grid-template-columns: 1fr 0.7fr;
-  padding: 14rem 5rem 12rem 5.1rem;
+  padding: 5rem 5rem 12rem 5.1rem;
   min-height: 60rem;
 }
 
@@ -245,7 +245,8 @@ main {
   border-color: #FFFFFF;
   display: inline-block;
   line-height: 1;
-  font-size: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
   padding: 12px 24px;
   border-radius: 3px;
   color: #fff;
@@ -253,6 +254,11 @@ main {
   text-align: center;
   -webkit-transition: all .3s;
   transition: all .3s;
+}
+
+.infra-ser .row .box-1 .consul .info .buttom:hover {
+  background-color: white;
+  color: #008037;
 }
 
 .infra-ser .row .box-1 .consul .info .barra {
