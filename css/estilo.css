@@ -329,4 +329,12 @@ main {
   font-weight: 600;
   margin-bottom: 3rem;
 }
+
+.espe .row p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #7a7a7a;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
 /*# sourceMappingURL=estilo.css.map */
