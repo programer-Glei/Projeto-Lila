@@ -308,22 +308,28 @@ main{
             font-weight: 400;
         }
 
-        .swiper-wrapper .swiper-slider .box{
-            position: relative;
-            text-align: center;
-            overflow: hidden;
-        }
-        
-        .swiper-wrapper .swiper-slider .box .image{
-            height: 40rem;
-            width: 100%;
-            overflow: hidden;
-        }
-        
-        .swiper-wrapper .swiper-slider .box .image img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
+        .swiper-wrapper{
+
+            .swiper-slider{
+
+                .box{
+                    position: relative;
+                    text-align: center;
+                    overflow: hidden;
+
+                    .image{
+                        height: 40rem;
+                        width: 100%;
+                        overflow: hidden;
+
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
         }
     }
 }
