@@ -337,4 +337,23 @@ main {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
+
+.espe .row .swiper-wrapper .swiper-slider .box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.espe .row .swiper-wrapper .swiper-slider .box .image {
+  height: 40rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.espe .row .swiper-wrapper .swiper-slider .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=estilo.css.map */
