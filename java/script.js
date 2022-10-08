@@ -1,10 +1,10 @@
 
 let swiper1 = new Swiper(".products-slider",{
-    spaceBetween: 30,
+    spaceBetween: 20,
     loop: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
     },
     centeredSlides: true,
     autoplay:{
