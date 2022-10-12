@@ -18,6 +18,24 @@ body {
   background-color: whitesmoke;
 }
 
+.btn {
+  display: inline-block;
+  line-height: 1;
+  background-color: #F6821F;
+  font-size: 1.5rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  fill: #fff;
+  text-align: center;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 5.2rem;
+}
+
 .header {
   padding: 0 9.8%;
   display: -webkit-box;
@@ -93,20 +111,6 @@ main {
   padding-bottom: 4rem;
   color: #7a7a7a;
   font-weight: 400;
-}
-
-.home .row .box .btn {
-  display: inline-block;
-  line-height: 1;
-  background-color: #F6821F;
-  font-size: 1.5rem;
-  padding: 1.2rem 2.4rem;
-  border-radius: 0.3rem;
-  color: #fff;
-  fill: #fff;
-  text-align: center;
-  -webkit-transition: all .3s;
-  transition: all .3s;
 }
 
 .home .row .box-1 {
@@ -339,6 +343,14 @@ main {
   margin-bottom: 4rem;
 }
 
+.espe .row .swiper {
+  height: 35rem;
+}
+
+.espe .row .swiper-wrapper .swiper-slider {
+  width: 37.3rem;
+}
+
 .espe .row .swiper-wrapper .swiper-slider .box {
   position: relative;
   text-align: center;
@@ -356,5 +368,15 @@ main {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.espe .row .btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: #F5811F;
+}
+
+.espe .row .btn:hover {
+  background-color: #008037;
 }
 /*# sourceMappingURL=estilo.css.map */
