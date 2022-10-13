@@ -473,4 +473,33 @@ main {
   --e-column-margin-left: 0px;
   padding: 48px 40px 48px 40px;
 }
+
+.depo .row .coluna .c-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.depo .row .coluna .c-header .stars {
+  width: 50%;
+}
+
+.depo .row .coluna .c-header .stars i {
+  color: #008037;
+  font-size: 1rem;
+}
+
+.depo .row .coluna .c-header .img {
+  width: 50%;
+  text-align: right;
+}
+
+.depo .row .coluna .c-header .img i {
+  color: #6ec1e4;
+  fill: rgba(27, 95, 193, 0.18);
+  font-size: 3.2rem;
+}
 /*# sourceMappingURL=estilo.css.map */

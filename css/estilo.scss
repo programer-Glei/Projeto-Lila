@@ -430,6 +430,31 @@ main{
             --e-column-margin-right: 16px;
             --e-column-margin-left: 0px;
             padding: 48px 40px 48px 40px;
+
+            .c-header{
+                display: flex;
+                align-items: center;
+
+                .stars{
+                    width: 50%;
+
+                    i{
+                        color: #008037;
+                        font-size: 1rem;
+                    }
+                }
+
+                .img{
+                    width: 50%;
+                    text-align: right;
+
+                    i{
+                        color: #6ec1e4;
+                        fill: rgba(27, 95, 193, 0.18);
+                        font-size: 3.2rem;
+                    }
+                }
+            }
         }
     }
 }
