@@ -438,4 +438,39 @@ main {
      object-fit: cover;
   border-radius: 16px 16px 16px 16px;
 }
+
+.depo {
+  background-color: #F7FDFB;
+  -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 160px;
+  border-radius: 0px 0px 0px 120px;
+}
+
+.depo .row {
+  width: 114rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.depo .row .coluna {
+  width: 33.333%;
+  background-color: #FFFFFF;
+  border-radius: 16px 16px 16px 0px;
+  border: solid 0.1rem #ECF0F5;
+  -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  margin: 0px 16px -80px 0px;
+  --e-column-margin-right: 16px;
+  --e-column-margin-left: 0px;
+  padding: 48px 40px 48px 40px;
+}
 /*# sourceMappingURL=estilo.css.map */
