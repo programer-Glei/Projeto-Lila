@@ -455,6 +455,26 @@ main{
                     }
                 }
             }
+
+            .testimu{
+                font-family: "Roboto", sans-serif;
+                color: #0C122D;
+                font-size: 1.6rem;
+                font-weight: 600;
+                margin: 2.4rem 0 2rem 0;
+            }
+
+            .c-roda{
+                display: flex;
+                align-items: center;
+
+                .img{
+                    img{
+                        width: 4rem;
+                        height: 4rem;
+                    }
+                }
+            }
         }
     }
 }
