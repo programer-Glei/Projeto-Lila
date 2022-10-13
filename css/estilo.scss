@@ -411,9 +411,9 @@ main{
 .depo{
     background-color: #F7FDFB;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin-top: 0px;
-    margin-bottom: 160px;
-    border-radius: 0px 0px 0px 120px;
+    margin-top: 0;
+    margin-bottom: 16rem;
+    border-radius: 0 0 0 12rem;
 
     .row{
         width: 114rem;
@@ -497,6 +497,47 @@ main{
                         color: #54595f;
                     }
                 }
+            }
+        }
+    }
+}
+
+.info{
+    background-color: #F7FDFB;
+
+    .row{
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        padding: 104px 80px 104px 80px;
+        text-align: center;
+
+        .heading{
+            font-size: 3.3rem;
+            color: #008037;
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+            margin-bottom: 3rem;
+        }
+
+        p{
+            font-size: 1.6rem;
+            line-height: 1.5;
+            color: #7a7a7a;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            margin-bottom: 5rem;
+        }
+
+        .margin{
+            margin-bottom: 0;
+        }
+
+        .btn{
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            background-color: #F5811F;
+
+            &:hover{
+                background-color: #008037;
             }
         }
     }
