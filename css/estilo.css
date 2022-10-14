@@ -231,7 +231,7 @@ main {
   margin-bottom: 7.1rem;
 }
 
-.infra-ser .row .box-1 .consul .info {
+.infra-ser .row .box-1 .consul .info-infra {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -240,7 +240,7 @@ main {
           align-items: center;
 }
 
-.infra-ser .row .box-1 .consul .info .buttom {
+.infra-ser .row .box-1 .consul .info-infra .buttom {
   fill: #FFFFFF;
   color: #FFFFFF;
   background-color: rgba(2, 1, 1, 0);
@@ -260,19 +260,19 @@ main {
   transition: all .3s;
 }
 
-.infra-ser .row .box-1 .consul .info .buttom:hover {
+.infra-ser .row .box-1 .consul .info-infra .buttom:hover {
   background-color: white;
   color: #008037;
 }
 
-.infra-ser .row .box-1 .consul .info .barra {
+.infra-ser .row .box-1 .consul .info-infra .barra {
   width: 0.1rem;
   height: 4.8rem;
   margin-inline: 3.2rem;
   background-color: rgba(255, 255, 255, 0.16);
 }
 
-.infra-ser .row .box-1 .consul .info .what {
+.infra-ser .row .box-1 .consul .info-infra .what {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -281,7 +281,7 @@ main {
           align-items: center;
 }
 
-.infra-ser .row .box-1 .consul .info .what .img {
+.infra-ser .row .box-1 .consul .info-infra .what .img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,14 +302,14 @@ main {
   border-radius: 50%;
 }
 
-.infra-ser .row .box-1 .consul .info .what .num a {
+.infra-ser .row .box-1 .consul .info-infra .what .num a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
   color: white;
 }
 
-.infra-ser .row .box-1 .consul .info .what .num p {
+.infra-ser .row .box-1 .consul .info-infra .what .num p {
   font-size: 2.4rem;
   font-weight: 600;
   line-height: 1em;
