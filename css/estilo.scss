@@ -542,3 +542,14 @@ main{
         }
     }
 }
+
+.contato{
+    background-color: #008037;
+
+    .row{
+        max-width: 107.5rem;
+        padding: 4rem 4rem 4rem 4rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
