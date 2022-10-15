@@ -597,10 +597,16 @@ main {
 .contato .row {
   max-width: 107.5rem;
   padding: 4rem 4rem 4rem 4rem;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+}
+
+.contato .row .coluna {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
 }
 /*# sourceMappingURL=estilo.css.map */
