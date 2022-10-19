@@ -610,6 +610,10 @@ main {
   width: 40%;
 }
 
+.contato .row .coluna a {
+  margin-right: 1.5rem;
+}
+
 .contato .row .coluna a i {
   font-size: 2.8rem;
   fill: #F5811F;
