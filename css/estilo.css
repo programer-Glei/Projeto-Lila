@@ -609,4 +609,11 @@ main {
   display: flex;
   width: 40%;
 }
+
+.contato .row .coluna a i {
+  font-size: 2rem;
+  fill: #F5811F;
+  color: #F5811F;
+  border-color: #F5811F;
+}
 /*# sourceMappingURL=estilo.css.map */

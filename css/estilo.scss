@@ -555,6 +555,16 @@ main{
         .coluna{
             display: flex;
             width: 40%;
+
+            a{
+
+                i{
+                    font-size:2rem;
+                    fill: #F5811F;
+                    color: #F5811F;
+                    border-color: #F5811F
+                }
+            }
         }
     }
 }
