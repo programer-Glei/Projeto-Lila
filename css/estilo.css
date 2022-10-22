@@ -620,4 +620,11 @@ main {
   color: #F5811F;
   border-color: #F5811F;
 }
+
+.contato .row .coluna .cont h4 a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=estilo.css.map */
