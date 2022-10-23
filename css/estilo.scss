@@ -604,12 +604,16 @@ main{
 
 .whats{
     background-color: #F5811F;
+    position: sticky;
+    bottom: 0; left: 0; right: 0;
+    z-index: 1000;
 
     .row{
         max-width: 114rem;
         margin: 0 auto;
         display: flex;
-        padding: 1rem;
+        justify-content: center;
+        padding: 1.2rem;
 
         a{
             margin-right: 1.5rem;
@@ -619,6 +623,19 @@ main{
                 fill: #FFFFFF;
                 color: #FFFFFF;
                 border-color: #FFFFFF;
+            }
+        }
+
+        .cont{
+            h4{
+                margin-top: 0.8rem;
+                margin-bottom: 0.4rem;
+                a{
+                    font-family: "Roboto", Sans-serif;
+                    font-weight: 600;
+                    color: #FFFFFF;
+                    font-size: 2.2rem;
+                }
             }
         }
     }
