@@ -621,10 +621,22 @@ main {
   border-color: #F5811F;
 }
 
+.contato .row .coluna .cont h4 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+
 .contato .row .coluna .cont h4 a {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: 600;
+  font-size: 2.2rem;
   color: #FFFFFF;
+}
+
+.contato .row .coluna .cont p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ECF0F5;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=estilo.css.map */

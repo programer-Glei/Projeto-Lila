@@ -571,12 +571,22 @@ main{
 
                 h4{
 
+                    margin-top: 0.8rem;
+                    margin-bottom: 0.4rem;
+
                     a{
                         font-family: "Roboto", sans-serif;
-                        font-weight: 400;
-                        font-size: 1.5rem;
+                        font-weight: 600;
+                        font-size: 2.2rem;
                         color: #FFFFFF;
                     }
+                }
+
+                p{
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    color: #ECF0F5;
+                    font-size: 1.5rem;
                 }
             }
         }
