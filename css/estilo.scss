@@ -50,6 +50,12 @@ body{
     }
 
     .header-2{
+        #menu{
+            i{
+                fill: #036738;
+                font-size: 2.5rem;
+            }
+        }
         .navbar{
             display: none;
         }
@@ -638,5 +644,24 @@ main{
                 }
             }
         }
+    }
+}
+
+@media (max-width: 767px){
+    .header{
+    
+        .logo{
+            img{
+                width: 4.2rem;
+            }
+        }
+    }
+
+    main{
+        padding: 0;
+    }
+    
+    .home .row {
+        padding: 0;
     }
 }

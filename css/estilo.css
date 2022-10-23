@@ -56,6 +56,11 @@ body {
   height: 5.4rem;
 }
 
+.header .header-2 #menu i {
+  fill: #036738;
+  font-size: 2.5rem;
+}
+
 .header .header-2 .navbar {
   display: none;
 }
@@ -697,5 +702,17 @@ main {
   font-weight: 600;
   color: #FFFFFF;
   font-size: 2.2rem;
+}
+
+@media (max-width: 767px) {
+  .header .logo img {
+    width: 4.2rem;
+  }
+  main {
+    padding: 0;
+  }
+  .home .row {
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */
