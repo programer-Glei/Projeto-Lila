@@ -608,6 +608,20 @@ main {
   display: -ms-flexbox;
   display: flex;
   width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-style: solid;
+  border-width: 0 0 0 0.1rem;
+  border-color: rgba(12, 18, 45, 0.24);
+  -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.contato .row .coluna.borda {
+  border: none;
 }
 
 .contato .row .coluna a {
@@ -638,5 +652,29 @@ main {
   font-weight: 400;
   color: #ECF0F5;
   font-size: 1.5rem;
+}
+
+.whats {
+  background-color: #F5811F;
+}
+
+.whats .row {
+  max-width: 114rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.whats .row a {
+  margin-right: 1.5rem;
+}
+
+.whats .row a i {
+  font-size: 5.5rem;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
 }
 /*# sourceMappingURL=estilo.css.map */

@@ -555,6 +555,15 @@ main{
         .coluna{
             display: flex;
             width: 40%;
+            justify-content: center;
+            border-style: solid;
+            border-width: 0 0 0 0.1rem;
+            border-color: rgba(12, 18, 45, 0.24);
+            transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+            &.borda{
+                border: none;
+            }
 
             a{
                 margin-right: 1.5rem;
@@ -588,6 +597,28 @@ main{
                     color: #ECF0F5;
                     font-size: 1.5rem;
                 }
+            }
+        }
+    }
+}
+
+.whats{
+    background-color: #F5811F;
+
+    .row{
+        max-width: 114rem;
+        margin: 0 auto;
+        display: flex;
+        padding: 1rem;
+
+        a{
+            margin-right: 1.5rem;
+
+            i{
+                font-size:5.5rem;
+                fill: #FFFFFF;
+                color: #FFFFFF;
+                border-color: #FFFFFF;
             }
         }
     }
