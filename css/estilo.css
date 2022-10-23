@@ -705,6 +705,9 @@ main {
 }
 
 @media (max-width: 767px) {
+  .btn {
+    margin-bottom: 2rem;
+  }
   .header .logo img {
     width: 4.2rem;
   }
@@ -712,7 +715,54 @@ main {
     padding: 0;
   }
   .home .row {
-    padding: 0;
+    padding: 0 2rem;
+  }
+  .home .row .box-1 {
+    width: 100%;
+  }
+  .infra-ser .row {
+    padding: 2.4rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .infra-ser .row .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .infra-ser .row .box .serv {
+    margin: 0;
+  }
+  .infra-ser .row .box-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .infra-ser .row .box-1 .row-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .infra-ser .row .box-1 .consul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .infra-ser .row .box-1 .consul .info-infra {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .infra-ser .row .box-1 .consul .info-infra .what {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 /*# sourceMappingURL=estilo.css.map */

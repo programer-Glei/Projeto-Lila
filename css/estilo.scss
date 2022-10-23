@@ -648,6 +648,11 @@ main{
 }
 
 @media (max-width: 767px){
+
+    .btn{
+        margin-bottom: 2rem;
+    }
+
     .header{
     
         .logo{
@@ -661,7 +666,50 @@ main{
         padding: 0;
     }
     
-    .home .row {
-        padding: 0;
+    .home{
+        .row{
+            padding: 0 2rem;
+
+            .box-1{
+                width: 100%;
+            }
+        }
+    }
+
+    .infra-ser{
+        .row{
+            padding: 2.4rem;
+            grid-template-columns: 1fr;
+
+            .box{
+                display: flex;
+                flex-wrap: wrap;
+                .serv{
+                    margin: 0;
+                }
+            }
+
+            .box-1{
+                display: flex;
+                flex-wrap: wrap;
+                .row-1{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .consul{
+                    display: flex;
+                    flex-wrap: wrap;
+    
+                    .info-infra{
+                        flex-wrap: wrap;
+    
+                        .what{
+                            flex-wrap: wrap;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
