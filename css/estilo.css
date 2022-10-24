@@ -209,7 +209,7 @@ main {
 .infra-ser .row .box-1 .row-1 .loca {
   background-color: #008037;
   padding: 3.4rem 4rem 2.4rem 3.2rem;
-  border-radius: 0px 16px 0px 0px;
+  border-radius: 0 1.6rem 0 0;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -256,8 +256,8 @@ main {
   line-height: 1;
   font-size: 1.5rem;
   font-weight: 500;
-  padding: 12px 24px;
-  border-radius: 3px;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.3rem;
   color: #fff;
   fill: #fff;
   text-align: center;
@@ -302,8 +302,8 @@ main {
   background-color: #28BD86;
   fill: #FFFFFF;
   color: #FFFFFF;
-  font-size: 14px;
-  padding: 14px;
+  font-size: 1.4rem;
+  padding: 1.4rem;
   border-radius: 50%;
 }
 
@@ -456,7 +456,7 @@ main {
 }
 
 .depo .row {
-  width: 114rem;
+  max-width: 114rem;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -759,10 +759,82 @@ main {
   .infra-ser .row .box-1 .consul .info-infra {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .infra-ser .row .box-1 .consul .info-infra .what {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .infra-ser .row .box-1 .consul .info-infra .what a {
+    margin-bottom: 1.6rem;
+  }
+  .infra-ser .row .box-1 .consul .info-infra .what .num {
+    text-align: center;
+  }
+  .n-estru .row .margin {
+    margin-bottom: 0;
+  }
+  .n-estru .row .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .n-estru .row .gallery .image {
+    width: 100%;
+    height: auto;
+  }
+  .depo .row {
+    max-width: 76.7rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 2.4rem;
+  }
+  .depo .row .coluna {
+    width: 100%;
+    margin: 0;
+    padding: 2.4rem;
+    margin-bottom: 4.8rem;
+  }
+  .info .row {
+    padding: 6.4rem 2.4rem 6.4rem 2.4rem;
+  }
+  .info .row .margin {
+    margin-bottom: 0;
+  }
+  .info .row .btn {
+    width: 100%;
+  }
+  .contato .row {
+    padding: 4.8rem 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contato .row a {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+  .contato .row .coluna {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 3.2rem;
+    border: none;
+  }
+  .contato .row .coluna.margin {
+    margin-bottom: 0;
+  }
+  .contato .row .coluna .cont {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=estilo.css.map */

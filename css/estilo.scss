@@ -189,7 +189,7 @@ main{
                 .loca{
                     background-color: #008037;
                     padding: 3.4rem 4rem 2.4rem 3.2rem;
-                    border-radius: 0px 16px 0px 0px;
+                    border-radius: 0 1.6rem 0 0;
                     flex: 1;
 
                     p{
@@ -231,8 +231,8 @@ main{
                         line-height: 1;
                         font-size: 1.5rem;
                         font-weight: 500;
-                        padding: 12px 24px;
-                        border-radius: 3px;
+                        padding: 1.2rem 2.4rem;
+                        border-radius: 0.3rem;
                         color: #fff;
                         fill: #fff;
                         text-align: center;
@@ -267,8 +267,8 @@ main{
                             background-color: #28BD86;
                             fill: #FFFFFF;
                             color: #FFFFFF;
-                            font-size: 14px;
-                            padding: 14px;
+                            font-size: 1.4rem;
+                            padding: 1.4rem;
                             border-radius: 50%;
                         }
 
@@ -422,7 +422,7 @@ main{
     border-radius: 0 0 0 12rem;
 
     .row{
-        width: 114rem;
+        max-width: 114rem;
         margin: 0 auto;
         display: flex;
         gap: 0.4rem;
@@ -703,11 +703,101 @@ main{
     
                     .info-infra{
                         flex-wrap: wrap;
+                        justify-content: center;
     
                         .what{
                             flex-wrap: wrap;
+                            justify-content: center;
+
+                            a{
+                                margin-bottom: 1.6rem;
+                            }
+
+                            .num{
+                                text-align: center;
+                            }
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .n-estru{
+    
+        .row{
+    
+            .margin{
+                margin-bottom: 0;
+            }
+    
+            .gallery{
+                display: flex;
+                flex-wrap: wrap;
+    
+                .image{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+    
+        }
+    }
+
+    .depo{
+    
+        .row{
+            max-width: 76.7rem;
+            flex-wrap: wrap;
+            padding: 2.4rem;
+
+            .coluna{
+                width: 100%;
+                margin: 0;
+                padding: 2.4rem;
+                margin-bottom: 4.8rem;
+            }
+        }
+    }
+
+    .info{
+        .row{
+            padding: 6.4rem 2.4rem 6.4rem 2.4rem;
+    
+            .margin{
+                margin-bottom: 0;
+            }
+
+            .btn{
+                width: 100%;
+            }
+        }
+    }
+
+    .contato{
+    
+        .row{
+            padding: 4.8rem 2.4rem;
+            flex-direction: column;
+
+            a{
+                text-align: center;
+                display: inline-block;
+                width: 100%;
+            }
+    
+            .coluna{
+                width: 100%;
+                flex-wrap: wrap;
+                margin-bottom: 3.2rem;
+                border: none;
+
+                &.margin{
+                    margin-bottom:0;
+                }
+
+                .cont{
+                    text-align: center;
                 }
             }
         }
