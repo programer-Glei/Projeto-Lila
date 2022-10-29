@@ -647,6 +647,60 @@ main{
     }
 }
 
+@media (max-width: 1024px){
+    .n-estru{
+    
+        .row{
+            padding: 4rem 4rem 8rem 4rem;
+    
+            .gallery{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                row-gap: 2.5rem;
+                column-gap: 2.5rem;
+    
+                .image{
+                    width: 55.8rem;
+                    height: 41.7rem;
+    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 16px 16px 16px 16px;
+                    }
+                }
+            }
+    
+        }
+    }
+}
+.elementor-9 .elementor-element.elementor-element-43244205 {
+    padding: 40px 40px 80px 40px;
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    .infra-ser{
+    
+        .row{
+            grid-template-columns: 1fr;
+            padding: 4rem 4rem 4rem 4rem;
+    
+            .box-1{
+    
+                .row-1{
+
+                    .loca{
+                        border-radius: 0;
+                    }
+    
+                }
+    
+            }
+        }
+    }
+}
+
 @media (max-width: 767px){
 
     .btn{
