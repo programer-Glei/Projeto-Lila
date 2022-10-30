@@ -883,13 +883,16 @@ main{
     .infra-ser{
         .row{
             padding: 2.4rem;
+            padding-top: 6.4rem;
             grid-template-columns: 1fr;
 
             .box{
                 display: flex;
                 flex-wrap: wrap;
                 .serv{
+                    width: 100%;
                     margin: 0;
+                    border-radius: 1.6rem 1.6rem 0 0;
                 }
             }
 
@@ -899,6 +902,15 @@ main{
                 .row-1{
                     display: flex;
                     flex-wrap: wrap;
+
+                    .infra{
+                        width: 100%;
+                    }
+
+                    .loca{
+                        width: 100%;
+                        border-radius: 0;
+                    }
                 }
 
                 .consul{

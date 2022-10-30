@@ -925,6 +925,7 @@ main {
   }
   .infra-ser .row {
     padding: 2.4rem;
+    padding-top: 6.4rem;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
@@ -936,7 +937,9 @@ main {
         flex-wrap: wrap;
   }
   .infra-ser .row .box .serv {
+    width: 100%;
     margin: 0;
+    border-radius: 1.6rem 1.6rem 0 0;
   }
   .infra-ser .row .box-1 {
     display: -webkit-box;
@@ -951,6 +954,13 @@ main {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .infra-ser .row .box-1 .row-1 .infra {
+    width: 100%;
+  }
+  .infra-ser .row .box-1 .row-1 .loca {
+    width: 100%;
+    border-radius: 0;
   }
   .infra-ser .row .box-1 .consul {
     display: -webkit-box;
