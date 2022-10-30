@@ -16,21 +16,29 @@
 <body>
     <header class="header">
         <a href="index.html" class="logo"><img src="img/diagnostic-lab-logo-symbol.svg" alt=""></a>
+        <div id="menu"><i class="fas fa-bars"></i></div>
         <div class="header-2">
-            <div id="menu"><i class="fas fa-bars"></i></div>
             <div class="navbar">
                 <ul>
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#arrival">Lançamento</a></li>
-                    <li><a href="#feature">Destaque</a></li>
-                    <li><a href="#gallery">Galeria</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#esp">Especialidades</a></li>
+                    <li><a href="#ne">Nossa estrutura</a></li>
+                    <li><a href="#cont">Contato</a></li>
+                    <li>
+                        <div class="what">
+                            <a href="" class="img"><img src="img/whats.svg" alt=""></a>
+                            <div class="num">
+                                <a href=""><b>Agende uma consulta</b></a>
+                                <p>(81) 99798-4477</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
     </header>
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <div class="row">
                 <div class="box">
                     <h6>Esqueça as enormes filas do SUS e os preços dos planos de saúde.</h6>
@@ -87,7 +95,7 @@
                 </div>
             </div>
         </section>
-        <section class="espe">
+        <section class="espe" id="esp">
             <div class="row">
                 <h2 class="heading">ESPECIALIDADES</h2>
                 <p>Confira algumas das especialidades atendidas pelo nosso time de médicos capacitado.</p>
@@ -174,7 +182,7 @@
                 <a href="contact.php" class="btn">Agende agora</a>
             </div>
         </section>
-        <section class="n-estru">
+        <section class="n-estru" id="ne">
             <div class="row">
                 <h2 class="heading">Nossa estrutura</h2>
                 <p class="margin">Instalações modernas, confortáveis e seguras.</p>
@@ -274,7 +282,7 @@
             </div>
         </section>
     </main>
-    <footer class="contato">
+    <footer class="contato" id="cont">
         <div class="row">
             <div class="coluna borda">
                 <a href=""><i class="fas fa-map-marker-alt"></i></a>

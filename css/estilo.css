@@ -5,6 +5,7 @@
   padding: 0;
   border: none;
   outline: none;
+  list-style: none;
   text-decoration: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -44,11 +45,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   height: 8rem;
   background-color: white;
+}
+
+.header .logo {
+  margin-right: 15%;
 }
 
 .header .logo img {
@@ -56,13 +58,84 @@ body {
   height: 5.4rem;
 }
 
-.header .header-2 #menu i {
+.header #menu {
+  display: none;
+}
+
+.header #menu i {
+  color: #036738;
   fill: #036738;
   font-size: 2.5rem;
 }
 
-.header .header-2 .navbar {
-  display: none;
+.header .header-2 {
+  width: 100%;
+}
+
+.header .header-2 .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header-2 .navbar ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #036738;
+  fill: #036738;
+}
+
+.header .header-2 .navbar ul li .what {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header-2 .navbar ul li .what .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1.6rem;
+  background-color: #28BD86;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  padding: 1.4rem;
+  border-radius: 50%;
+}
+
+.header .header-2 .navbar ul li .what .num a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #7A7A7A;
+}
+
+.header .header-2 .navbar ul li .what .num p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #7A7A7A;
+  line-height: 1em;
+  letter-spacing: 1px;
+  margin: 0;
 }
 
 main {
@@ -739,6 +812,17 @@ main {
   .infra-ser .row .box-1 .row-1 .loca {
     border-radius: 0;
   }
+  .header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header #menu {
+    display: inline-block;
+  }
+  .header .header-2 .navbar {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -752,8 +836,50 @@ main {
   .btn {
     margin-bottom: 2rem;
   }
+  .header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+  }
   .header .logo img {
     width: 4.2rem;
+  }
+  .header #menu {
+    display: inline;
+  }
+  .header .header-2 {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+  }
+  .header .header-2 .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+  }
+  .header .header-2 .navbar ul {
+    position: absolute;
+    display: block;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: white;
+    padding: 2rem 9.8%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .header-2 .navbar ul.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .header-2 .navbar ul li {
+    margin-bottom: 1.5rem;
+  }
+  .header .header-2 .navbar ul li .what {
+    display: none;
   }
   main {
     padding: 0;

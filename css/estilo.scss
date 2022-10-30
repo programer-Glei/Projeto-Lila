@@ -5,6 +5,7 @@
     font-family: 'Cantarell', 'Roboto', 'Roboto Slab', 'Ubuntu', sans-serif;
     margin: 0; padding: 0;
     border: none; outline: none;
+    list-style: none;
     text-decoration: none;
     box-sizing: border-box;
 }
@@ -38,26 +39,82 @@ body{
     padding: 0 9.8%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     height: 8rem;
     background-color: white;
 
     .logo{
+        margin-right: 15%;
         img{
             width: 5.4rem;
             height: 5.4rem;
         }
     }
 
-    .header-2{
-        #menu{
-            i{
-                fill: #036738;
-                font-size: 2.5rem;
-            }
+    #menu{
+        display: none;
+        i{
+            color: #036738;
+            fill: #036738;
+            font-size: 2.5rem;
         }
+    }
+
+    .header-2{
+        width: 100%;
         .navbar{
-            display: none;
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                li{
+                    a{
+                        font-family: "Roboto", sans-serif;
+                        font-size: 2rem;
+                        font-weight: 500;
+                        color: #036738;
+                        fill: #036738;
+                    }
+
+                    .what{
+                        display: flex;
+                        align-items: center;
+
+                        .img{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 4rem;
+                            height: 4rem;
+                            margin-right: 1.6rem;
+                            background-color: #28BD86;
+                            fill: #FFFFFF;
+                            color: #FFFFFF;
+                            font-size: 1.4rem;
+                            padding: 1.4rem;
+                            border-radius: 50%;
+                        }
+
+                        .num{
+
+                            a{
+                                font-family: "Roboto", sans-serif;
+                                font-weight: 400;
+                                font-size: 1.4rem;
+                                color: #7A7A7A;
+                            }
+
+                            p{
+                                font-size: 1.8rem;
+                                font-weight: 600;
+                                color: #7A7A7A;
+                                line-height: 1em;
+                                letter-spacing: 1px;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -700,6 +757,19 @@ main{
             }
         }
     }
+
+    .header{
+        justify-content: space-between;
+        #menu{
+            display: inline-block;
+        }
+        .header-2{
+            .navbar{
+                display: none;
+            }
+        }
+    }
+
 }
 
 @media (min-width: 768px){
@@ -725,12 +795,49 @@ main{
     }
 
     .header{
-    
+        justify-content: space-between;
+        position: relative;
+
         .logo{
             img{
                 width: 4.2rem;
             }
         }
+
+        #menu{
+            display: inline;
+        }
+
+        .header-2{
+            position: absolute;
+            top: 100%; right: 0; left: 0;
+
+            .navbar{
+                position: absolute;
+                top: 100%; right: 0; left: 0;
+
+                ul{
+                    position: absolute;
+                    display: block;
+                    top: 100%; right: 0; left: 0;
+                    background: white;
+                    padding: 2rem 9.8%;
+                    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+                    &.active{
+                        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                    }
+
+                    li{
+                        margin-bottom: 1.5rem;
+                        .what{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
     }
 
     main{
