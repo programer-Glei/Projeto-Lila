@@ -8,6 +8,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    transition: all 300ms linear;
 }
 
 html{
@@ -760,12 +761,37 @@ main{
 
     .header{
         justify-content: space-between;
+        position: relative;
         #menu{
             display: inline-block;
         }
         .header-2{
+            position: absolute;
+            top: 100%; right: 0; left: 0;
+
             .navbar{
-                display: none;
+                position: absolute;
+                top: 100%; right: 0; left: 0;
+
+                ul{
+                    position: absolute;
+                    display: block;
+                    top: 100%; right: 0; left: 0;
+                    background: white;
+                    padding: 2rem 9.8%;
+                    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+                    &.active{
+                        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                    }
+
+                    li{
+                        margin-bottom: 1.5rem;
+                        .what{
+                            display: none;
+                        }
+                    }
+                }
             }
         }
     }
