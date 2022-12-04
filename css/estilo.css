@@ -24,7 +24,7 @@ body {
 .btn {
   display: inline-block;
   line-height: 1;
-  background-color: #F6821F;
+  background-color: #0c4e81;
   font-size: 1.5rem;
   padding: 1.2rem 2.4rem;
   border-radius: 0.3rem;
@@ -48,16 +48,11 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 8rem;
-  background-color: white;
-}
-
-.header .logo {
-  margin-right: 15%;
+  background-color: #119b14;
 }
 
 .header .logo img {
-  width: 5.4rem;
-  height: 5.4rem;
+  width: 32rem;
 }
 
 .header #menu {
@@ -65,8 +60,8 @@ body {
 }
 
 .header #menu i {
-  color: #036738;
-  fill: #036738;
+  color: white;
+  fill: white;
   font-size: 2.5rem;
 }
 
@@ -90,8 +85,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   font-weight: 500;
-  color: #036738;
-  fill: #036738;
+  color: white;
+  fill: white;
 }
 
 .header .header-2 .navbar ul li .what {
@@ -128,13 +123,13 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  color: #7A7A7A;
+  color: white;
 }
 
 .header .header-2 .navbar ul li .what .num p {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #7A7A7A;
+  color: white;
   line-height: 1em;
   letter-spacing: 1px;
   margin: 0;
@@ -168,7 +163,7 @@ main {
 }
 
 .home .row .box h6 {
-  color: #F6821F;
+  color: #0c4e81;
   font-size: 2rem;
   margin-top: 6rem;
   margin-bottom: 3rem;
@@ -303,7 +298,7 @@ main {
 }
 
 .infra-ser .row .box-1 .consul {
-  background-color: #F5811F;
+  background-color: #119b14;
   padding: 3.4rem 4rem 2.4rem 3.2rem;
 }
 
@@ -453,7 +448,7 @@ main {
 .espe .row .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  background-color: #F5811F;
+  background-color: #0c4e81;
 }
 
 .espe .row .btn:hover {
@@ -477,7 +472,7 @@ main {
 
 .n-estru .row .heading {
   font-size: 3.3rem;
-  color: #F5811F;
+  color: #0c4e81;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   margin-bottom: 3rem;
@@ -663,7 +658,7 @@ main {
 .info .row .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  background-color: #F5811F;
+  background-color: #0c4e81;
 }
 
 .info .row .btn:hover {
@@ -710,9 +705,9 @@ main {
 
 .contato .row .coluna a i {
   font-size: 2.8rem;
-  fill: #F5811F;
-  color: #F5811F;
-  border-color: #F5811F;
+  fill: #0c4e81;
+  color: #0c4e81;
+  border-color: #0c4e81;
 }
 
 .contato .row .coluna .cont h4 {
@@ -735,7 +730,7 @@ main {
 }
 
 .whats {
-  background-color: #F5811F;
+  background-color: #119b14;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
@@ -841,7 +836,7 @@ main {
     top: 100%;
     right: 0;
     left: 0;
-    background: white;
+    background: #119b14;
     padding: 2rem 9.8%;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -870,13 +865,14 @@ main {
     margin-bottom: 2rem;
   }
   .header {
+    padding: 0 9.8% 0 0;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     position: relative;
   }
   .header .logo img {
-    width: 4.2rem;
+    width: 20rem;
   }
   .header #menu {
     display: inline;
@@ -899,7 +895,7 @@ main {
     top: 100%;
     right: 0;
     left: 0;
-    background: white;
+    background: #119b14;
     padding: 2rem 9.8%;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -919,6 +915,9 @@ main {
   }
   .home .row {
     padding: 0 2rem;
+  }
+  .home .row .box h1 {
+    font-size: 3rem;
   }
   .home .row .box-1 {
     width: 100%;

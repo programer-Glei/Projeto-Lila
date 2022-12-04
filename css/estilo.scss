@@ -22,7 +22,7 @@ body{
 .btn{
     display: inline-block;
     line-height: 1;
-    background-color: #F6821F;
+    background-color: rgb(12,78,129);
     font-size: 1.5rem;
     padding: 1.2rem 2.4rem;
     border-radius: 0.3rem;
@@ -41,21 +41,19 @@ body{
     display: flex;
     align-items: center;
     height: 8rem;
-    background-color: white;
+    background-color: rgb(17,155,20);
 
     .logo{
-        margin-right: 15%;
         img{
-            width: 5.4rem;
-            height: 5.4rem;
+            width: 32rem;
         }
     }
 
     #menu{
         display: none;
         i{
-            color: #036738;
-            fill: #036738;
+            color: white;
+            fill: white;
             font-size: 2.5rem;
         }
     }
@@ -72,8 +70,8 @@ body{
                         font-family: "Roboto", sans-serif;
                         font-size: 2rem;
                         font-weight: 500;
-                        color: #036738;
-                        fill: #036738;
+                        color: white;
+                        fill: white;
                     }
 
                     .what{
@@ -101,13 +99,13 @@ body{
                                 font-family: "Roboto", sans-serif;
                                 font-weight: 400;
                                 font-size: 1.4rem;
-                                color: #7A7A7A;
+                                color: white;
                             }
 
                             p{
                                 font-size: 1.8rem;
                                 font-weight: 600;
-                                color: #7A7A7A;
+                                color: white;
                                 line-height: 1em;
                                 letter-spacing: 1px;
                                 margin: 0;
@@ -139,7 +137,7 @@ main{
             flex: 1;
 
             h6{
-                color: #F6821F;
+                color: rgb(12,78,129);
                 font-size: 2rem;
                 margin-top: 6rem;
                 margin-bottom: 3rem;
@@ -266,7 +264,7 @@ main{
             }
 
             .consul{
-                background-color: #F5811F;
+                background-color: rgb(17,155,20);;
                 padding: 3.4rem 4rem 2.4rem 3.2rem;
 
                 p{
@@ -411,7 +409,7 @@ main{
         .btn{
             font-family: "Roboto", sans-serif;
             font-weight: 500;
-            background-color: #F5811F;
+            background-color: rgb(12,78,129);
 
             &:hover{
                 background-color: #008037;
@@ -431,7 +429,7 @@ main{
 
         .heading{
             font-size: 3.3rem;
-            color: #F5811F;
+            color: rgb(12,78,129);
             font-family: "Roboto", sans-serif;
             font-weight: 600;
             margin-bottom: 3rem;
@@ -598,7 +596,7 @@ main{
         .btn{
             font-family: "Roboto", sans-serif;
             font-weight: 500;
-            background-color: #F5811F;
+            background-color: rgb(12,78,129);
 
             &:hover{
                 background-color: #008037;
@@ -634,9 +632,9 @@ main{
 
                 i{
                     font-size:2.8rem;
-                    fill: #F5811F;
-                    color: #F5811F;
-                    border-color: #F5811F
+                    fill: rgb(12,78,129);
+                    color: rgb(12,78,129);
+                    border-color: rgb(12,78,129);
                 }
             }
 
@@ -667,7 +665,7 @@ main{
 }
 
 .whats{
-    background-color: #F5811F;
+    background-color:rgb(17,155,20);
     position: sticky;
     bottom: 0; left: 0; right: 0;
     z-index: 1000;
@@ -777,7 +775,7 @@ main{
                     position: absolute;
                     display: block;
                     top: 100%; right: 0; left: 0;
-                    background: white;
+                    background: rgb(17,155,20);
                     padding: 2rem 9.8%;
                     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 
@@ -821,12 +819,13 @@ main{
     }
 
     .header{
+        padding: 0 9.8% 0 0;
         justify-content: space-between;
         position: relative;
 
         .logo{
             img{
-                width: 4.2rem;
+                width: 20rem;
             }
         }
 
@@ -846,7 +845,7 @@ main{
                     position: absolute;
                     display: block;
                     top: 100%; right: 0; left: 0;
-                    background: white;
+                    background: rgb(17,155,20);
                     padding: 2rem 9.8%;
                     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 
@@ -873,6 +872,12 @@ main{
     .home{
         .row{
             padding: 0 2rem;
+
+            .box{
+                h1{
+                    font-size: 3rem;
+                }
+            }
 
             .box-1{
                 width: 100%;
